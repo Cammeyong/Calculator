@@ -1,0 +1,47 @@
+.cal1 {
+    text-align: center;
+    border: 1px solid brown;
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom: 2%;
+}
+
+.cal2 {
+   margin-left: 15%;
+   margin-top: 5%;
+   display: flex;
+   width: 70%;
+}
+.col {
+    flex: 50%;
+}
+
+.calculator {
+    padding-left: 2%;
+    border: 1px solid black;
+    padding-bottom: 2%;
+}
+.calculator h1{
+    text-align: center;
+}
+select {
+    padding: 10px;
+}
+
+.img {
+    background-image: url(https://www.static.inrae.fr/cdn/ff/lUsIZk_cSenn4wXg4o1l59LOlC4LRvOjZ0xJjul-eBA/1649318307/public/styles/actu/public/jpg/Bandeau%20r%C3%A9seau%20bayesien%20illustration.jpg?itok=pFLsP0_7);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+button {
+    padding: 8px;
+    box-shadow: 1px 4px 3px 2px rgb(167, 78, 78, 0.5);
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+
+}
+

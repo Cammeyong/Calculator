@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    
+    <div class="cal1">
+
+        <h1>My Trial Calculator</h1>
+
+        <label for="">First Value</label>
+        <input type="text" name="n1" id="n1" maxlength="5">
+
+        <br>
+        <pre></pre>
+
+        <label for="">Operator:</label>
+        <input type="text" name ="opr" id="opr" maxlength="1">
+
+        <br>
+        <pre></pre>
+
+        <label for="">Second Value</label>
+        <input type="text" name="n2" id="n2" maxlength="5">
+
+        <br>
+        <pre></pre>
+
+        <label for="">=</label>
+        <input type="text" name="result" id="result" maxlength="10">
+
+        <br>
+        <pre></pre>
+
+        <button onclick="calc();">Calculate</button>
+    </div>
+
+    <br>
+    <pre></pre>
+
+    <div class="cal2">
+
+        <div class="img col"></div>
+
+        <div class="col calculator">
+                <h1>Calculating Area</h1>
+
+            <select name="opr2" id="opr2" onchange="rectangle(this)">
+                <option value="c">Calculate Area of Circle with Circumference</option>   <!--calculate circum 2*pi*r-->
+                <option value="r">Area of a Circle with radius</option>   <!--calculate the radius diameter/2-->
+                <option value="d">Area of a circle with Diameter</option> <!--calculate the diameter radius*2-->
+                <option value="a">Area of a circle</option>               <!--calculate area of circle pi*r*r-->
+                <option value="rect">Calculate Area of a Rectangle </option>   <!--caculate area of rect l*w-->
+
+            </select>
+            <br>
+            <pre></pre>
+
+            <label for="">Enter a value</label>
+            <input type="text" name="val" id="val" maxlength="20">
+
+            <br>
+            <pre></pre>
+
+            <label for="">Enter a second value</label>
+            <input type="text" name="val1" id="val1" maxlength="20">
+            
+            <br>
+            <pre></pre>
+
+            <label for="">=</label>
+                <input type="text" name="result2" id="result2" maxlength="10">
+                <br>
+            <pre></pre>
+            <button onclick="calcArea();">Calculate</button>
+        </div>
+    </div>
+
+
+
+
+
+    <script type="text/javascript" src="calculator.js"></script>
+
+</body>
+</html>
