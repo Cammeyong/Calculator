@@ -13,16 +13,16 @@ function calc(){
         break;
         case '/': document.getElementById('result').value = n1/n2;
         break;
-        case '%': document.getElementById('result').value = n1%n2;
+        case '%': document.getElementById('result').value = n1/100*n2;
         break;
         default: alert('not valid')
         
     }
 }
 
-// var opr2;
-// var val;
-// var val1;
+var opr2;
+var val;
+var val1;
 
 function calcArea() {
     var pi =3.1415926535898;
